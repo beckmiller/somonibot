@@ -1,5 +1,5 @@
 # **Telegram Bot**  based on aiogram
-Hello, there! This is my first expirience to create telegram bot based on aiogram.
+This is my first expirience to create telegram bot based on aiogram.
 This bot scrapes exchange rate of Russian rubles and Tajikistans somoni
 from xe.com, National Bank of Tajikistan and money transfer rate from 
 top Tajik banks then it shows to users.
@@ -14,15 +14,15 @@ top Tajik banks then it shows to users.
 
 ### Problem that I solved
 
-    There is exist local telegram group which I follow 
-    and where everytime people were asked about money transfer rate of RUB/TJS. 
-    It's Tajikistan local currency somoni. Everytime somebody telling for everyone who asked the rate of the currency.
-    So that's why I dicided automate this procces with getting top local banks money tranfer rate.
-    Cause of those Banks didn't have API, I dicided scrap web pages of banks 
-    by using `requests, BeautifulSoup`. Then I created Telegram bot where people can just press the button to know ex rate of currency
+There is exist local telegram group which I follow 
+and where everytime people were asked about money transfer rate of RUB/TJS. 
+It's Tajikistan local currency somoni. Everytime somebody telling for everyone who asked the rate of the currency.
+So that's why I dicided automate this procces with getting top local banks money tranfer rate.
+Cause of those Banks didn't have API, I dicided scrap web pages of banks 
+by using `requests, BeautifulSoup`. Then I created Telegram bot where people can just press the button to know ex rate of currency.
 
 
 ### How bot and response looks like: 
-<img src="assets/sm.png" width="450" height="360" />
+<img src="assets/sm.png" width="372" height="353" />
 
 >**That's all thank you for your attention!**

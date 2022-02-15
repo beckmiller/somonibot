@@ -21,8 +21,13 @@ So that's why I dicided automate this procces with getting top local banks money
 Cause of those Banks didn't have API, I dicided scrap web pages of banks 
 by using `requests, BeautifulSoup`. Then I created Telegram bot where people can just press the button to know ex rate of currency.
 
+### 3. Structure
+In `banks` module located all related scripts that scrape data from webpages of Banks
 
-### 3. How bot and response looks like: 
+### 4. How to run?
+After install all requirments and get API from BothFather of Telegram run it in terminal 'python bot.py`
+
+### 5. How bot and response looks like: 
 <img src="assets/sm.png" width="372" height="353" />
 
 

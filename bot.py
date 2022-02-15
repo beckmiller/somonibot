@@ -1,7 +1,7 @@
 
 import config
 import logging
-from banks.eskhata import somoni_rub
+from banks.eskhata import main
 from predictions import predict
 from aiogram import Bot, Dispatcher, executor, types
 
@@ -50,7 +50,7 @@ async def unsubscribe(message: types.Message):
     
 @dp.message_handler(commands=['kurs'])
 async def kurs(message: types.Message):
-	curr = somoni_rub()
+	curr = main()
 	await message.answer(curr)
 
 
@@ -64,7 +64,7 @@ async def cmd_start(message: types.Message):
 #обработка кнопки, если Эсхата
 @dp.message_handler(Text(equals="Узнать курс"))
 async def with_puree(message: types.Message):
-	curr = somoni_rub()
+	curr = main()
 	await message.reply(curr)
 
 @dp.message_handler(Text(equals="Прогноз"))
@@ -75,7 +75,7 @@ async def with_puree(message: types.Message):
 @dp.message_handler()
 async def echo_message(msg: types.Message):
 	if msg.text.lower() == 'курс' or msg.text.lower()=='kurs':
-		curr = somoni_rub()
+		curr = main()
 		await bot.send_message(msg.from_user.id, curr)
 
 

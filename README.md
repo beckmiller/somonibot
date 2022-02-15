@@ -25,7 +25,7 @@ by using `requests, BeautifulSoup`. Then I created Telegram bot where people can
 In `banks` module located all related scripts that scrape data from webpages of Banks
 
 ### 4. How to run?
-After install all requirments and get API from BothFather of Telegram run it in terminal `python bot.py`
+After install all requirments and get API from BotFather of Telegram run it in terminal `python bot.py`
 
 ### 5. How bot and response looks like: 
 <img src="assets/sm.png" width="372" height="353" />
